@@ -1,79 +1,305 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Test : test">
+    <title>Jal Jalali Ekram</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Page Icon -->
+    <link href="/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Navbar -->
+    <link href="css/navbar.css" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
-    <title>Test</title>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>  
+<!-- Font Aqesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
 
-  <body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/kettleio/test">View on GitHub</a>
 
-          <h1 id="project_title">Test</h1>
-          <h2 id="project_tagline">test</h2>
+<body>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/kettleio/test/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/kettleio/test/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+  <div class="container">
+
+      <!-- Static navbar -->
+      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Jal Jalali Ekram</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#projects"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;Projects</a></li>
+            <li><a href="#resume"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;Resume</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+      </div>
+
+      <div id="about-me" style="margin-top:80px">
+        <div class="row featurette">
+          <div class="text-center">
+            <img class="featurette-image img-responsive img-circle center-block" height="180px" width="180px" alt="500x500" src="/images/myImage.png">
+            <br>
+            <span style="font-size:35px;">Jal Jalali Ekram</span><br>
+            <span style="font-size:22px;">Software Developer</span>
+          </div>
+        </div>
+
+        <br>
+        <div class="text-center">
+
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <a href="mailto:jjekram@gmail.com"><i class="fa fa-inbox fa-3x"></i></a>
+          </div>
+
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <a target="_blank" href="https://github.com/jjekram"><i class="fa fa-github fa-3x"></i></a>
+          </div>
+
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <a target="_blank" href="https://www.linkedin.com/in/jjekram"><i class="fa fa-linkedin fa-3x"></i></a>
+          </div>
+
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <a target="_blank" href="https://www.facebook.com/ekram.jj"><i class="fa fa-facebook fa-3x"></i></a>
+          </div>
+
+        </div>
+        <br>
+        <hr width="100%" style="border-top: 2px solid; margin-top:40px">
+
+        
+        <div class="span8">
+            <p class="lead">I am a Candidate for Bachelor of Computer Science at University of Waterloo. Past intern at 
+              <a href="http://www.careerify.net/">Careerify</a>, 
+              <a href="http://www.matcor-matsu.com/">Matcor-Matsu Inc.</a>, 
+              <a href="https://gatewaylogin.com/marketing.php">GatewayiQ</a> and CompanyID. I am passionate about applications that makes our lives easier and more efficient. Feel free to contact me for internship opportunities.               
+            </p>
+          </div>
+      </div>
+
+
+      <br>
+      <br>
+
+
+      <div id="projects">
+
+          <br>
+          <br>
+
+          <div class="page-header">
+            <h3>Projects</h3>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="thumbnail">
+                <div class="caption">
+                  <h3>TweetRide</h3>
+                  <p>TweetRide fetches tweets about highways and transit systems in Toronto  (<a target="_blank" href="https://twitter.com/680newstraffic">@680newstraffic</a>,
+                <a target="_blank" href="https://twitter.com/TTCnotices">@TTCnotices</a>
+                ). Then, it organizes each tweet by the highways it is referring to as well as the content it has. The tweets are then displayed in a table with a indication beside the tweet indicating delays, construction,collision etc. </p>
+                  <p>
+                    <a target="_blank" href="https://github.com/jjekram/TweetRide" class="btn btn-primary" role="button">Github</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="thumbnail">
+                <div class="caption">
+                  <h3>fitPlanner</h3>
+                  <p> fitPlanner is an exercise progress tracker. This app is directed for beginners at the gym. This app allows you to view and analyze your performance for a single workout and/or a workout schedule. It is an alternative to using pen and paper to keep track of your exercise. </p><br/> 
+
+          <p>fitPlanner saves all your workout data so no need to worry about gym track sheet getting destroyed or lost. This app has a performance history page where you can see all the previous workout data including sets, reps and weights. </p>
+                  <p>
+                    <a target="_blank" href="https://github.com/jjekram/fitPlanner" class="btn btn-primary" role="button">Github</a>
+                    <a target="_blank" href="http://fitplanner.herokuapp.com/" class="btn btn-default" role="button">Live</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+
+      <div id="resume">
+        <br>
+        <br>
+        <div class="page-header">
+          <h3>Resume <a target="_blank" href="/pdf_resume/resume.pdf" class="btn btn-primary" role="button">PDF Resume</a></h3> 
+        </div>
+
+
+        <div id="header" class="text-center">
+          <h1 class="coloredTitle">Jal Jalali Ekram</h1>
+          3B Computer Science, University of Waterloo 
+          <br />
+          <p>
+            <span class="glyphicon glyphicon-inbox"></span>
+            <a target="_blank" href="mailto:jjekram@gmail.com"> jjekram@gmail.com</a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <img src="../images/GitHub-Mark-32px.png" height="16" width="16">
+            <a target="_blank" href="https://github.com/jjekram/"> github.com/jjekram</a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <span class="glyphicon glyphicon-search"></span>
+            <a target="_blank" href="http://jjekram.github.io/">jjekram.github.io</a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <span class="glyphicon glyphicon-earphone"></span>
+            <span>647-787-6492</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <hr width="100%">
+        </div>
+        
+
+        <div id="workExperience">
+          <h4 class="coloredTitle">Skills Summary</h4>
+          <ul>
+            <li> Languages: Python, C++, Java, C#, Objective-C, C, JavaScript, Ruby, PHP, MySQL, Microsoft SQL Server, PostgreSQL, SQLite.</li>
+            <li> Frameworks: Node.js, AngularJS, Flask, .NET, iOS, Android, jQuery, Java Swing, Ruby on Rails, Express.js, CodeIgniter.</li>
+            <li> APIs: LinkedIn, Facebook, Twitter, MailChimp, RelateIQ, Wikipedia.</li>
+          </ul>  
+        
+          <h4 class="coloredTitle">Work Experience</h4>
+          <span><b>Careerify Corporation</b></span><br/>
+          <span>Software Developer</span>
+          <span class="pull-right" style="color:grey">May 2014 - August 2014</span><br>
+          <span><i>Development Tools: Python, Node.js, AngularJS, Flask, C#, .NET, JavaScript, jQuery, Visual Studio</i></span>
+          <ul>
+            <li>Increased the number of employee referrals by using social data to suggest appropriate jobs to refer.</li>
+            <li>Improved quality of job suggestion by developing an algorithm that matches candidates' social profile(LinkedIn, Facebook) to jobs available in clients' company.</li>
+            <li>Improved client satisfaction by developing a feature to customize the user interface for their employees.</li>    
+          </ul>
+          
+
+          <span><b>Matcor-Matsu Group Inc.</b></span><br/>
+          <span>Web Developer</span>
+          <span class="pull-right" style="color:grey">September 2013 - December 2013</span><br>
+          <span><i>Development Tools: PHP, JavaScript, jQuery, Active Directory, Kerberos, HTML, CSS</i></span>
+           <ul>
+             <li>Improved the Intranet site performance by 200%.</li>
+             <li>Developed a bill split application to reduce company’s cell phone bill cost. </li>
+             <li>Added privacy feature to allow users to upload files with viewing permissions. </li>
+          </ul>
+
+          <span><b>GatewayiQ</b></span><br/>
+          <span>Web Developer</span>
+          <span class="pull-right" style="color:grey">January 2013 - April 2013</span><br>
+          <span><i>Development Tools: PHP, JavaScript, jQuery, Bash, HTML, CSS, SVN</i></span>
+           <ul>
+             <li>Developed web applications to reduce clients' cost to train and manage their employees. </li>
+             <li>Improved user experience by developing user interface for managers to manage their subordinates. </li>
+             <li>Increased user engagement by developing gamification tools.</li>       
+            </ul>
+
+          <span><b>CompanyID</b></span><br/>
+          <span>Web Developer</span>
+          <span class="pull-right" style="color:grey">May 2012 - August 2012</span><br />
+          <span><i>Development Tools: PHP, JavaScript, jQuery, CodeIgniter, HTML, CSS, Git</i></span>
+           <ul>
+             <li>Built an internal tool to provide user analytics to senior developers. </li>
+             <li>Developed an extension that maps clients' location from their phone number.  </li>
+             <li>Developed an interactive interface to display clients contact information.</li>           
+            </ul>
+        </div>
+
+        <div id="rightSide">          
+          <h4 class="coloredTitle">Projects</h4>
+          <span><b>TweetRide</b></a>, iOS Application</span>
+          <ul>
+            <li> Used Twitter API to fetch tweets about highway and transit updates in Toronto
+              (<a target="_blank" href="https://twitter.com/680newstraffic">@680newstraffic</a>,
+              <a target="_blank" href="https://twitter.com/TTCnotices">@TTCnotices</a>
+              ).  
+            </li>
+
+            <li>Displayed tweets in a user-friendly display with a traffic/transit status indicator.</li>
+            
+          </ul>
+        
+
+          <span><b>fitPlanner</b></a>, Web Application, <a target="_blank" href="http://fitplanner.herokuapp.com/">fitplanner.herokuapp.com</a></span>
+          <ul>
+            
+            <li>An exercise progress tracker for gym beginners developed using Ruby on Rails and jQuery Mobile.</li>
+            <li>Allows users to plan their workout and enter data(reps, sets etc.) during the workout session.</li>
+            <li>Users can evaluate their progress by looking at their workout history.</li>      
+          </ul>
+        
+
+          <span><b>Personal Website</b></span>
+          <ul>
+            <li>Built my personal website using Twitter bootstrap, HTML & CSS</li>
+          </ul>
+
+          <h4 class="coloredTitle">Education</h4>
+           <span>Candidate for Bachelor of Computer Science<br>University of Waterloo</span>
+           <span class="pull-right" style="color:grey">September 2012 - present</span>
+            <ul>
+              <li>Resident at Velocity (a startup incubator for Waterloo students). </li>
+           <li> Courses: Data Structures and Data Management, Object-Oriented Software Development, Operating Systems, User Interfaces
+           </li>
+           <li>Projects: Fruit Ninja game (Android and Java Swing), Compiler construction on a subset of C.</li>
+            </ul>
+
+          <h4 class="coloredTitle">Activities and Interests</h4>
+          <ul>
+             <li>Built a solar panel from pop cans and pitched it at Toronto SCI-TECH Fair. </li>
+             <li>Enjoy playing tennis, cricket and going to gym.</li>          
+          </ul>
+
+          <h4 class="coloredTitle">References</h4>
+          <ul>
+             <li>Available upon request.</li>        
+          </ul>
+        </div>
+
+
+      </div>
+
+
+
+        
+
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Test maintained by <a href="https://github.com/kettleio">kettleio</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
 
   </body>
+
 </html>
+
+<style>
+body { padding-top: 70px; }
+
+.no-hover a:hover{
+  text-decoration:none;
+}
+
+.coloredTitle { color:#0070c0;}
+
+</style>
